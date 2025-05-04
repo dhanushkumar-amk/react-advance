@@ -3,7 +3,10 @@
 // import FramerMotionBasic3 from './components/framerMotion/framer3';
 // import FramerMotionBasic4 from './components/framerMotion/framer4';
 // import FramerMotionBasic5 from "./components/framerMotion/framer5"
-import FramerMotionBasic6 from "./components/framerMotion/framer6"
+// import FramerMotionBasic6 from "./components/framerMotion/framer6"
+// import FramerMotionBasic7 from "./components/framerMotion/framer7"
+// import Zustand1 from "./components/Zustand/zustand1"
+// import PasswordGenerator from "./components/Zustand/passwordGenerator/passwordGenerator"
 
 
 
@@ -15,7 +18,11 @@ const App = () => {
         {/* <FramerMotionBasic3/> */}
         {/* <FramerMotionBasic4/> */}
         {/* <FramerMotionBasic5/> */}
-        <FramerMotionBasic6/>
+        {/* <FramerMotionBasic6/> */}
+        {/* <FramerMotionBasic7/> */}
+        {/* <Zustand1/> */}
+        {/* <PasswordGenerator/> */}
+
     </div>
   )
 }
