@@ -8,6 +8,10 @@
 // import Zustand1 from "./components/Zustand/zustand1"
 // import PasswordGenerator from "./components/Zustand/passwordGenerator/passwordGenerator"
 
+import MainFile from "./components/Tanstack/MainFile"
+
+
+
 
 
 const App = () => {
@@ -22,6 +26,8 @@ const App = () => {
         {/* <FramerMotionBasic7/> */}
         {/* <Zustand1/> */}
         {/* <PasswordGenerator/> */}
+
+    <MainFile/>
 
     </div>
   )
