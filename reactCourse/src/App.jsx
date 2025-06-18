@@ -2,6 +2,8 @@ import ClassBasedComponents from "./components/classBasedComponenet"
 import ConditionalStatements from "./components/ConditionalStatements";
 import ConditionalStatements2 from "./components/ConditionalStatements2";
 import FunctionalBasedComponents from "./components/FunctionalComponents";
+import ContextButton from "./components/Helper/Button";
+import ContextText from "./components/Helper/Text";
 import User from "./components/Helper/User";
 import LifeCycleClassComponenet from "./components/LifeCycleClassBasecComponenet";
 import ListandKeys from "./components/ListandKeys";
@@ -10,6 +12,7 @@ import StateAndSetState from "./components/StateAndSetState";
 import StatemanagementInClassBasedComponents from "./components/StatemanagementInClassBasedComponents";
 import StyledComponenet from "./components/StyledComponenet";
 import UseEffectHook from "./hooks/UseEffectHook";
+import UseReducerHook from "./hooks/UseReducerHook";
 import UseStateHook from "./hooks/UseStateHook";
 
 
@@ -34,11 +37,18 @@ const App = () => {
         {/* <StateAndSetState/> */}
         {/* <StatemanagementInClassBasedComponents/> */}
         {/* <LifeCycleClassComponenet/> */}
-        <User/>
+        {/* <User/> */}
+
+        {/* UseContextDemo */}
+        {/* <ContextButton/>
+        <ContextText/> */}
 
         {/* Hooks */}
         {/* <UseStateHook/> */}
         {/* <UseEffectHook/> */}
+        <UseReducerHook/>
+
+
 
     </div>
   )
