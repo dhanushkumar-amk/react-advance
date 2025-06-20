@@ -14,6 +14,16 @@ import StyledComponenet from "./components/StyledComponenet";
 import UseEffectHook from "./hooks/UseEffectHook";
 import UseReducerHook from "./hooks/UseReducerHook";
 import UseStateHook from "./hooks/UseStateHook";
+import FormComponent from './components/FormHandling';
+import UseFecthHook from "./components/CustomHook-UseFecthHook";
+import CutomHookWindowResize from "./components/CutomHook-WindowResize";
+import ReactHookForm from "./components/ReactHookForm";
+import UseRefhook from "./hooks/useRefHook";
+import UseMemoHook from "./hooks/useMemoHook";
+import UseCallbackHook from "./hooks/useCallbackHook";
+import HelloWorld from "./components/testComponents/HelloWorld";
+// import ReactRouterDOM from "./components/ReactRouterDOM";
+
 
 
 const data = [
@@ -38,6 +48,8 @@ const App = () => {
         {/* <StatemanagementInClassBasedComponents/> */}
         {/* <LifeCycleClassComponenet/> */}
         {/* <User/> */}
+        {/* <FormComponent/> */}
+
 
         {/* UseContextDemo */}
         {/* <ContextButton/>
@@ -46,10 +58,18 @@ const App = () => {
         {/* Hooks */}
         {/* <UseStateHook/> */}
         {/* <UseEffectHook/> */}
-        <UseReducerHook/>
+        {/* <UseReducerHook/> */}
+        {/* <UseFecthHook/> */}
+        {/* <CutomHookWindowResize/> */}
+        {/* <UseRefhook/> */}
+        {/* <UseMemoHook/> */}
+        {/* <UseCallbackHook/> */}
 
+      {/* <ReactRouterDOM/> */}
+      {/* <ReactHookForm/> */}
 
-
+      {/* Test */}
+      <HelloWorld/>
     </div>
   )
 }
