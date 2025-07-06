@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+
+const Navbar = ({ setModelOpen }) => {
+
+
+
+
   return (
     <div className='bg-white h-14  border-b shadow-lg' >
         <div className='container mx-auto flex justify-between items-center h-full px-4'>
@@ -11,7 +16,7 @@ const Navbar = () => {
                 <li className=' hover:font-bold hover:text-green-600' >Testimonial</li>
                 <li className=' hover:font-bold hover:text-green-600' >Contact</li>
             </ul>
-            <button className='px-4 py-2 bg-green-600 hover:bg-green-700 cursor-pointer  rounded text-white'>Login</button>
+            <button className='px-4 py-2 bg-green-600 hover:bg-green-700 cursor-pointer  rounded text-white'  onClick={()=> setModelOpen(true)} >Login</button>
         </div>
     </div>
   )
